@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Rebound Preferences">
+
+
+  <PreferenceCategory
+     android:title="Preferences">
+
+    <EditTextPreference
+        android:key="prefs_url"
+        android:title="Enter URL"
+		android:dialogTitle="Enter URL template"
+        android:summary="Tap to enter a URL (use %u for URL and %t for title)"
+        android:inputType="textUri"
+        android:defaultValue="http://example.com?url=%u&amp;title=%t"
+    />
+     
+  </PreferenceCategory>
+
+   
+</PreferenceScreen>
